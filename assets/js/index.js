@@ -33,3 +33,9 @@ const returnAverageValue = function(array){
   }
   return (result/array.length);
 }
+
+// third task 
+
+const getRandomNumberFrom = function(){
+  return Math.floor(Math.random()*(101));
+}
