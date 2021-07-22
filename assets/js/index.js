@@ -21,3 +21,15 @@ const returnMinMaxValues = function (myarray){
   }
   return [maxValue, minValue];
 }
+
+// second task
+
+const arr = [12, 15, 20, 25, 59, 79];
+
+const returnAverageValue = function(array){
+  let result=0;
+  for(let i=0; i < array.length; i++){
+    result+= array[i];
+  }
+  return (result/array.length);
+}
