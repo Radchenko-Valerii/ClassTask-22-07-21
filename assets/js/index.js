@@ -47,3 +47,24 @@ for(let i=0; i < 10; i++){
   myRandomArray[i] = getRandomNumberFrom();
 }
 
+// first task from document 
+
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5, 6];
+const arr3 = arr1.concat(arr2);
+
+// second task from document
+
+const arr1Reversed = arr1.reverse();
+
+// third task from document
+
+const array1 = [1, 2, 3];
+array1.push(4, 5, 6);
+
+
+
+const array2 = [1, 2, 3];
+array2.unshift(4, 5, 6);
+
+
