@@ -39,3 +39,11 @@ const returnAverageValue = function(array){
 const getRandomNumberFrom = function(){
   return Math.floor(Math.random()*(101));
 }
+
+// fourth task
+
+let myRandomArray = []; 
+for(let i=0; i < 10; i++){
+  myRandomArray[i] = getRandomNumberFrom();
+}
+
